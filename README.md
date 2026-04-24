@@ -10,9 +10,9 @@ This app exposes a `POST /api/bfhl` endpoint that accepts an array of node edge 
 
 - **Frontend:** Next.js (App Router), Vanilla CSS
 - **Backend:** Next.js API Routes (Node.js)
-- **Hosting:** Vercel
+- **Hosting:** Render
 
 
 ## Deployment
 
-Deploy instantly on [Vercel](https://vercel.com). The `/api/bfhl` route is automatically handled as a serverless function.
+Deploy on [Render](https://render.com). Create a new Web Service, connect your GitHub repo, set build command to `npm run build` and start command to `npm start`. The `/api/bfhl` route will be handled as a serverless function.
